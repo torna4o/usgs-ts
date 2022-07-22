@@ -55,3 +55,8 @@ plot(df2, type="p")
 #lines(dfnonna, col="red")
 lines(dfnasagg, col ="green")
 
+### Part 7: Writing the data to .csv files
+
+write.zoo(df2, file="D:/gapunfilled.csv", sep=",")
+write.zoo(dfnonna, file="D:/gapfilled.csv", sep=",")
+write.zoo(dfnasagg, file="D:/gapfilledagg.csv", sep=",")
