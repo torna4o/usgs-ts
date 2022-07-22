@@ -1,4 +1,4 @@
-### Part 0: Loading library to managee data download from USGS databases
+### Part 0: Loading library to manage data download from USGS databases
 
 library(dataRetrieval) # the main package to retrieve USGS data
 #vignette("dataRetrieval",package = "dataRetrieval") # a quick good tutorial
