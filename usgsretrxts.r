@@ -5,7 +5,7 @@ library(dataRetrieval) # the main package to retrieve USGS data
 library(xts) # for time series operaitons
 
 
-### Part 1: No3 data
+### Part 1: Retrieving No3 data from USGS database online
 
 siteNumber <- "11447650" # This example is Sacramento Freeport CA
 parameterCd <- "00618" # This parameter code is for nitrate mg/l
