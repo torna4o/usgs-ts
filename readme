@@ -1,4 +1,4 @@
-This code retrieves USGS station data. Then, it makes a continuous time-series with non-sampled times empty filled.
+This code retrieves USGS station data. Then, it makes a continuous time-series with non-sampled times NA filled.
 
 Required packages:
 dataRetrieval # main package
